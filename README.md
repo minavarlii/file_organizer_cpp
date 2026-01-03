@@ -19,6 +19,14 @@ everyday use without risk of data loss.
 - Prevents overwriting existing files
 - Prints a clear summary of all moved files
 
+- ## Quality & Safety Considerations
+
+This tool is designed to be safe, predictable, and repeatable.
+
+Defensive logic is used to prevent overwriting existing files, ensuring that data is not lost during organization. The program can be safely re-run multiple times without introducing side effects or duplicating files.
+
+These considerations make the tool suitable for everyday use and reduce the risk of unintended file system changes.
+
 ## Implementation Details
 	•	Implemented in C++17
 	•	Uses std::filesystem for directory traversal and file operations
